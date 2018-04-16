@@ -15,7 +15,7 @@ import java.util.GregorianCalendar;
 public class Pratica31 {
 
     private static Date inicio, fim;
-    private static String meuNome;
+    private static String meuNome = "Gustavo Regis Amorim";
     private static GregorianCalendar dataNascimento = new GregorianCalendar(1999, Calendar.JUNE, 27);
     private static GregorianCalendar dataAtual = new GregorianCalendar(); 
     
@@ -23,8 +23,6 @@ public class Pratica31 {
     public static void main(String[] args) {
 
         inicio = new Date();
-
-        meuNome = "Gustavo Regis Amorim";
 
         System.out.println(meuNome.toUpperCase());
 
